@@ -1,0 +1,5 @@
+# CPU path. No torch. The interpreter, data, eval metrics, and demo use stdlib only.
+# GPU extras (install on the training box, not this Mac):
+#   pip install aligntune "curatorkit[all]" auditkit
+#   pip install sglang
+#   # Unsloth / bitsandbytes as required by AlignTune's unsloth backend

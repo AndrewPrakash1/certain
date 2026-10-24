@@ -1,0 +1,46 @@
+{
+  "cwd": "/Users/andrewbenjamin/Documents/Syntax_Hack",
+  "python": "3.14.8 (main, Sep 30 2026, 17:55:09) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "nvidia": false,
+  "reward_loop": {
+    "certificate_rewards": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outcome_rewards": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "certificate_advantages": [
+      1.7320508075688774,
+      -0.5773502691896258,
+      -0.5773502691896258,
+      -0.5773502691896258
+    ],
+    "outcome_advantages": [
+      0.5773502691896258,
+      0.5773502691896258,
+      0.5773502691896258,
+      -1.7320508075688774
+    ],
+    "note": "Outcome pays the unfaithful boxed answer; certificate does not."
+  },
+  "sglang": {
+    "nvidia": false,
+    "import": false,
+    "served": false,
+    "reply": "nothing listening on :30000",
+    "import_error": "No module named 'sglang'",
+    "url": "http://127.0.0.1:30000"
+  },
+  "aligntune": {
+    "import": false,
+    "grpo_step": false,
+    "import_error": "No module named 'aligntune'"
+  },
+  "timestamp": "2026-10-23T23:36:44Z"
+}

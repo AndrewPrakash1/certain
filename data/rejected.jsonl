@@ -1,0 +1,96 @@
+{"id": "heldout-vat_inclusive-10006", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10015", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10024", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10033", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10042", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10051", "reason": "duplicate"}
+{"id": "heldout-invoice-10053", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10060", "reason": "duplicate"}
+{"id": "heldout-payroll-10064", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10069", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10078", "reason": "duplicate"}
+{"id": "heldout-invoice-10080", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10087", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10096", "reason": "duplicate"}
+{"id": "heldout-multi_item-10097", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10105", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10123", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10132", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10141", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10159", "reason": "duplicate"}
+{"id": "heldout-fx-10165", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10168", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10177", "reason": "duplicate"}
+{"id": "heldout-payroll-10190", "reason": "duplicate"}
+{"id": "heldout-vat_inclusive-10195", "reason": "duplicate"}
+{"id": "heldout-payroll-10199", "reason": "duplicate"}
+{"id": "heldout-split_money-30007", "reason": "duplicate"}
+{"id": "heldout-remaining-30008", "reason": "duplicate"}
+{"id": "heldout-split_money-30017", "reason": "duplicate"}
+{"id": "heldout-ratio-30034", "reason": "duplicate"}
+{"id": "heldout-ages-30036", "reason": "duplicate"}
+{"id": "heldout-split_money-30037", "reason": "duplicate"}
+{"id": "heldout-ratio-30039", "reason": "duplicate"}
+{"id": "heldout-split_money-30047", "reason": "duplicate"}
+{"id": "heldout-ratio-30049", "reason": "duplicate"}
+{"id": "heldout-remaining-30053", "reason": "duplicate"}
+{"id": "heldout-remaining-30058", "reason": "duplicate"}
+{"id": "heldout-ratio-30059", "reason": "duplicate"}
+{"id": "heldout-split_money-30062", "reason": "duplicate"}
+{"id": "heldout-remaining-30068", "reason": "duplicate"}
+{"id": "heldout-split_money-30072", "reason": "duplicate"}
+{"id": "heldout-split_money-30077", "reason": "duplicate"}
+{"id": "heldout-ratio-30079", "reason": "duplicate"}
+{"id": "heldout-ages-30081", "reason": "duplicate"}
+{"id": "gsm8k-train-0009", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0030", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0064", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0086", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0095", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0113", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0140", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0153", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0159", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0177", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0178", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0194", "reason": "pii:credit card"}
+{"id": "gsm8k-train-0210", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0211", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0215", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0228", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0242", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0250", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0265", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0270", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0284", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0300", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0310", "reason": "illegal character '.'"}
+{"id": "gsm8k-train-0322", "reason": "illegal character '.'"}
+{"reason": "certificate_mismatch", "question": "Ann's favorite store was having a summer clearance. For $75 she bought 5 pairs of shorts for $7 each and 2 pairs of shoes for $10 each. She also bought 4 tops, ", "gold": "5"}
+{"reason": "certificate_mismatch", "question": "Jack is stranded on a desert island. He wants some salt to season his fish. He collects 2 liters of seawater in an old bucket. If the water is 20% salt, how man", "gold": "400"}
+{"reason": "certificate_mismatch", "question": "Mrs. Snyder used to spend 40% of her monthly income on rent and utilities. Her salary was recently increased by $600 so now her rent and utilities only amount t", "gold": "1000"}
+{"reason": "certificate_mismatch", "question": "A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st ", "gold": "10"}
+{"reason": "certificate_mismatch", "question": "James is a first-year student at a University in Chicago. He has a budget of $1000 per semester. He spends 30% of his money on food, 15% on accommodation, 25% o", "gold": "300"}
+{"reason": "certificate_mismatch", "question": "Sam memorized six more digits of pi than Carlos memorized. Mina memorized six times as many digits of pi as Carlos memorized. If Mina memorized 24 digits of pi,", "gold": "10"}
+{"reason": "certificate_mismatch", "question": "Caleb bought 10 cartons of ice cream and 4 cartons of frozen yoghurt. Each carton of ice cream cost $4 and each carton of frozen yoghurt cost $1. How much more ", "gold": "36"}
+{"reason": "certificate_mismatch", "question": "At a flea market, Hillary sells handmade crafts for 12 dollars per craft. Today, Hillary sells 3 crafts and is given an extra 7 dollars from an appreciative cus", "gold": "25"}
+{"reason": "certificate_mismatch", "question": "Four classmates were comparing their ages based on their birth month. They found out that Jolyn is 2 months older than Therese while Therese is 5 months older t", "gold": "5"}
+{"reason": "certificate_mismatch", "question": "Alyssa, Keely, and Kendall ordered 100 chicken nuggets from a fast-food restaurant. Keely and Kendall each ate twice as many as Alyssa. How many did Alyssa eat?", "gold": "20"}
+{"reason": "certificate_mismatch", "question": "A bulk warehouse is offering 48 cans of sparkling water for $12.00 a case.  The local grocery store is offering the same sparkling water for $6.00 and it only h", "gold": "25"}
+{"reason": "certificate_mismatch", "question": "Kennedy's house is 600 square feet larger than 4 times Benedict's house. If Kennedy's house is 10000 square feet, how many square feet is Benedict's house?", "gold": "2350"}
+{"reason": "certificate_mismatch", "question": "Toby is counting goldfish in the local pond. He knows that only 25% of goldfish are at the surface and the rest are too deep below the surface to be able to see", "gold": "45"}
+{"reason": "certificate_mismatch", "question": "Angela is a bike messenger in New York. She needs to deliver 8 times as many packages as meals. If she needs to deliver 27 meals and packages combined, how many", "gold": "3"}
+{"reason": "certificate_mismatch", "question": "Janet filmed a new movie that is 60% longer than her previous 2-hour long movie.  Her previous movie cost $50 per minute to film, and the newest movie cost twic", "gold": "1920"}
+{"reason": "certificate_mismatch", "question": "James collects all the fruits from his 2 trees.  Each tree has 20 plants.  Each plant has 1 seed and he plants 60% of those.  How many trees did he plant?", "gold": "24"}
+{"reason": "certificate_mismatch", "question": "After tests in California, the total number of Coronavirus cases was recorded as 2000 positive cases on a particular day. The number of cases increased by 500 o", "gold": "3750"}
+{"reason": "certificate_mismatch", "question": "Melody planted sunflowers from two different seed packets. She found that the sunflowers from Packet A were 20% taller than the sunflowers from Packet B. If the", "gold": "160"}
+{"reason": "certificate_mismatch", "question": "Rosie runs 6 miles per hour. She runs for 1 hour on Monday, 30 minutes on Tuesday, 1 hour on Wednesday, and 20 minutes on Thursday. If she wants to run 20 miles", "gold": "30"}
+{"reason": "certificate_mismatch", "question": "Jolene and Phil have four children, each with the same birthday.  They gave birth to their first child exactly 15 years ago.  They gave birth to their second ch", "gold": "8"}
+{"reason": "certificate_mismatch", "question": "On a road map, 1/4 inch represents 8 miles of actual road distance. The towns of Pence and Hillcrest are represented by points 3 3/8 inches apart on the map. Wh", "gold": "108"}
+{"reason": "certificate_mismatch", "question": "John plants a plot of 3 trees by 4 trees.  Each tree gives 5 apples.  He sells each apple for $.5.  How much money does he make, in dollars?", "gold": "30"}
+{"reason": "certificate_mismatch", "question": "An Italian restaurant earns $600 every weekday and twice as much on the weekend. How much money does it earn by the end of the month?", "gold": "21600"}
+{"reason": "certificate_mismatch", "question": "Jim collects model cars, and he has 301 models total.  Jim has 4 times as many Buicks as Fords, and 3 more than twice the number of Fords than Chevys.  How many", "gold": "220"}
+{"reason": "certificate_mismatch", "question": "For every 1 minute that Carlotta sings on stage during the final opera performance, she spends an additional 3 minutes practicing and 5 minutes throwing temper ", "gold": "54"}
+{"reason": "certificate_mismatch", "question": "Carrie is wrapping three birthday presents. One present needs two square feet of wrapping paper to cover. The second present needs three-quarters of that amount", "gold": "7"}
+{"reason": "certificate_mismatch", "question": "Tommy is making 12 loaves of bread. He needs 4 pounds of flour per loaf. A 10-pound bag of flour costs $10 and a 12-pound bag costs $13. When he is done making ", "gold": "50"}
+{"reason": "certificate_mismatch", "question": "Jay & Gloria were hosting a 4th of July party at their house.  Jay invited 22 people and Gloria invited 36.  They wanted to buy small American flags for everyon", "gold": "12"}

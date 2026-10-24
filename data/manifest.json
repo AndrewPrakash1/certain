@@ -1,0 +1,42 @@
+{
+  "name": "CERTAIN finance+math certificates",
+  "created_at": "2026-10-23T23:36:47.156997+00:00",
+  "n_kept": 2912,
+  "n_train": 2676,
+  "n_heldout": 236,
+  "n_rejected": 96,
+  "domains": [
+    "finance",
+    "math"
+  ],
+  "kinds": [
+    "ages",
+    "bakery",
+    "depreciation",
+    "fx",
+    "gsm8k",
+    "inventory",
+    "invoice",
+    "loan",
+    "margin",
+    "multi_item",
+    "payroll",
+    "ratio",
+    "remaining",
+    "split_money",
+    "vat_inclusive"
+  ],
+  "gate": "hygiene + executable interpreter + gold match",
+  "checksums": {
+    "raw/all.jsonl": "36a55f7fe4df9d22797adc20db5d70dc9ee3ed8e4a6c90215898d7a095e87ba6",
+    "exports/sft/train.jsonl": "c86191ed13eb7a9f4e1ac2f8d06d0faa811b3876f43f1ac7cb1f9f5cb4a4baa8",
+    "exports/grpo/train.jsonl": "e6c0770450902ec5517a1014011bf1bd966eb3d43c529a78b60edd6343ffe523",
+    "exports/heldout.jsonl": "9ef1672f32c03889d78ff82aa6355f89463c4f7c6020dc2943d82824576d93c9",
+    "rejected.jsonl": "4bd24dd0e0bfad1abb6e6b94793dfeef6c52ef073ee7b9a0deeb561ec5b15a36"
+  },
+  "system_prompt_sha256": "1c5d73080abf3f992292668f21a248152ab7e037443b720c6ae10c50666d0e54",
+  "tooling": {
+    "curatorkit": null,
+    "gate": "certain.curate.gate"
+  }
+}

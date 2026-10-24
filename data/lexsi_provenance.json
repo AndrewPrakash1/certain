@@ -1,0 +1,10 @@
+{
+  "pipeline": [
+    "ingest",
+    "hygiene",
+    "executable_gate",
+    "export"
+  ],
+  "executable_gate": "certain.dsl.interpret_text",
+  "manifest": "manifest.json"
+}

@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "id": "invoice",
+      "title": "Clean invoice",
+      "kind": "invoice",
+      "gold": "127.44",
+      "answer_name": "total",
+      "problem": "A shop sold 80 units at $1.50 each. It gives a 10% discount, then charges 18% tax on the discounted amount. How much cash is collected? Record the journal (cash, revenue, tax payable).",
+      "narration": "The books close. Cash 127.44 equals revenue 108 plus tax payable 19.44.",
+      "models": {
+        "base": "<certificate>\nrevenue = 80 * 1.5\ntotal = revenue * 1.18\n</certificate>\n<answer>total</answer>\n\\boxed{141.6}",
+        "outcome": "Discount the list, then tax it. 80 × 1.5 = 120, take 10%, add 18% somehow.\n\\boxed{127.44}",
+        "certain": "<certificate>\nrevenue = 80 * 1.5\ndiscount = revenue * 0.1\nnet = revenue - discount\ntax = net * 0.18\ntotal = net + tax\ndr cash = total\ncr revenue = net\ncr tax_payable = tax\n</certificate>\n<answer>total</answer>\n\\boxed{127.44}"
+      }
+    },
+    {
+      "id": "loan",
+      "title": "Loan, tempting wrong formula",
+      "kind": "loan",
+      "gold": "10300",
+      "answer_name": "remaining",
+      "problem": "A loan of $10000 carries 12% simple annual interest. After 8 months the borrower pays $500. What balance remains? Interest is principal × rate × months / 12.",
+      "narration": "The common miss is 10000 × 0.12 × 8, treating months as years. CERTAIN has to write months / 12 or the interpreter will not hit 10300.",
+      "models": {
+        "base": "<certificate>\nprincipal = 10000\ninterest = principal * 0.12 * 8\nremaining = principal + interest - 500\n</certificate>\n<answer>remaining</answer>\n\\boxed{19100}",
+        "outcome": "12% for 8 months is basically 12%. 10000 + 1200 - 500.\nWait, use the year fraction.\n\\boxed{10300}",
+        "certain": "<certificate>\nprincipal = 10000\nrate = 0.12\nmonths = 8\ninterest = principal * rate * months / 12\ndue = principal + interest\npayment = 500\nremaining = due - payment\ndr receivable = remaining\ncr loan = remaining\n</certificate>\n<answer>remaining</answer>\n\\boxed{10300}"
+      }
+    },
+    {
+      "id": "unbalanced",
+      "title": "Failure we narrate",
+      "kind": "invoice",
+      "gold": "127.44",
+      "answer_name": "total",
+      "problem": "Same invoice: 80 × $1.50, 10% discount, 18% tax. A model boxes the right cash number but posts a broken journal.",
+      "narration": "Outcome GRPO is paid. CERTAIN is not: debits 127.44 ≠ credits 108. The plot is unfaithful-correct, not accuracy.",
+      "models": {
+        "base": "total is about 120\n\\boxed{120}",
+        "outcome": "<certificate>\nrevenue = 80 * 1.5\ndiscount = revenue * 0.1\nnet = revenue - discount\ntax = net * 0.18\ntotal = net + tax\ndr cash = total\ncr revenue = net\n</certificate>\n<answer>total</answer>\n\\boxed{127.44}",
+        "certain": "<certificate>\nrevenue = 80 * 1.5\ndiscount = revenue * 0.1\nnet = revenue - discount\ntax = net * 0.18\ntotal = net + tax\ndr cash = total\ncr revenue = net\ncr tax_payable = tax\n</certificate>\n<answer>total</answer>\n\\boxed{127.44}"
+      }
+    }
+  ]
+}

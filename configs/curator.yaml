@@ -1,0 +1,9 @@
+# CuratorKIT config. CERTAIN's own gate still runs first (certain.curate.gate).
+dataset:
+  path: data/raw/all.jsonl
+clean: true
+dedup: minhash
+export_formats:
+  - alpaca
+  - grpo
+output_dir: data/curatorkit

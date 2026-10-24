@@ -1,0 +1,7 @@
+{
+  "error": "<urlopen error [Errno 61] Connection refused>",
+  "pass_rate": null,
+  "need_sft": true,
+  "n": 100,
+  "note": "SGLang unreachable; defaulting to SFT cold start."
+}

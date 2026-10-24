@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CERTAIN — pay the model only when the proof runs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <div class="mark">Σ</div>
+      <div>
+        <h1>CERTAIN</h1>
+        <p>Certificate-Enforced Reasoning · Syntax Error 2026 · Local LLM track</p>
+      </div>
+    </div>
+    <div class="claim">
+      Same model. Same prompt. Same Dr. GRPO budget.<br />
+      <strong>Only the reward changes.</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="board" id="scoreboard">
+      <h2>Held-out scoreboard</h2>
+      <p class="fine" id="board-meta">loading…</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Run</th>
+              <th>Accuracy</th>
+              <th>Faithful acc.</th>
+              <th>Unfaithful-correct</th>
+              <th>Cert. reward</th>
+              <th>Outcome reward</th>
+            </tr>
+          </thead>
+          <tbody id="board-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <aside>
+        <h2>Cases</h2>
+        <div id="case-list" class="case-list"></div>
+        <div class="toggles">
+          <span>Model</span>
+          <div class="pills" id="model-pills">
+            <button data-model="base">Base</button>
+            <button data-model="outcome">Outcome GRPO</button>
+            <button data-model="certain" class="on">CERTAIN</button>
+          </div>
+          <label class="live">
+            <input type="checkbox" id="live" />
+            Live SGLang
+          </label>
+          <button id="run" class="run">Run interpreter</button>
+        </div>
+      </aside>
+
+      <article>
+        <p class="eyebrow" id="case-title">Clean invoice</p>
+        <h2 id="problem"></h2>
+        <p class="narration" id="narration"></p>
+        <div class="columns">
+          <div>
+            <h3>Certificate</h3>
+            <ol id="lines" class="lines"></ol>
+            <pre id="raw" class="raw"></pre>
+          </div>
+          <div>
+            <h3>Books</h3>
+            <div class="taccounts">
+              <div>
+                <h4>Debits</h4>
+                <p id="debits">0</p>
+              </div>
+              <div>
+                <h4>Credits</h4>
+                <p id="credits">0</p>
+              </div>
+            </div>
+            <p id="books-msg" class="books-msg"></p>
+            <dl class="kv">
+              <div><dt>Interpreter</dt><dd id="ivalue">—</dd></div>
+              <div><dt>Boxed</dt><dd id="boxed">—</dd></div>
+              <div><dt>Gold</dt><dd id="gold">—</dd></div>
+              <div><dt>Cert. reward</dt><dd id="creward">—</dd></div>
+              <div><dt>Outcome reward</dt><dd id="oreward">—</dd></div>
+              <div><dt>Faithful</dt><dd id="faithful">—</dd></div>
+            </dl>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    The interpreter is the judge. The model cannot write <code>assert True</code>.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

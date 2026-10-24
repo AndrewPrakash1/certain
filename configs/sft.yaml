@@ -1,0 +1,9 @@
+type: sft
+model_name: unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit
+dataset_name: data/exports/sft/train.jsonl
+backend: unsloth
+output_dir: outputs/sft
+num_epochs: 1
+batch_size: 4
+learning_rate: 0.0002
+max_samples: 800

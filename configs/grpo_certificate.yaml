@@ -1,0 +1,15 @@
+type: rl
+algorithm: grpo
+loss_type: dr_grpo
+model_name: unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit
+dataset_name: data/exports/grpo/train.jsonl
+backend: unsloth
+output_dir: outputs/grpo_certificate
+max_steps: 300
+batch_size: 2
+num_generations: 4
+max_completion_length: 256
+learning_rate: 0.000001
+seed: 42
+reward_functions:
+  - certain_certificate

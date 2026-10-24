@@ -1,0 +1,30 @@
+{
+  "n": 200,
+  "metrics": {
+    "oracle_gold": {
+      "n": 200,
+      "accuracy": 1.0,
+      "faithful_accuracy": 1.0,
+      "unfaithful_correct_rate": 0.0,
+      "mean_certificate_reward": 1.0,
+      "mean_outcome_reward": 1.0
+    },
+    "constructed_outcome": {
+      "n": 200,
+      "accuracy": 1.0,
+      "faithful_accuracy": 0.0,
+      "unfaithful_correct_rate": 1.0,
+      "mean_certificate_reward": 0.0,
+      "mean_outcome_reward": 1.0
+    },
+    "constructed_base": {
+      "n": 200,
+      "accuracy": 0.2,
+      "faithful_accuracy": 0.0,
+      "unfaithful_correct_rate": 0.2,
+      "mean_certificate_reward": 0.0,
+      "mean_outcome_reward": 0.2
+    }
+  },
+  "mode": "constructed"
+}

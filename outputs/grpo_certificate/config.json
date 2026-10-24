@@ -1,0 +1,20 @@
+{
+  "type": "rl",
+  "algorithm": "grpo",
+  "loss_type": "dr_grpo",
+  "model_name": "unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
+  "dataset_name": "/Users/andrewbenjamin/Documents/Syntax_Hack/data/exports/grpo/train.jsonl",
+  "backend": "unsloth",
+  "output_dir": "/Users/andrewbenjamin/Documents/Syntax_Hack/outputs/grpo_certificate",
+  "max_steps": 300,
+  "batch_size": 2,
+  "num_generations": 4,
+  "max_completion_length": 256,
+  "learning_rate": 1e-06,
+  "seed": 42,
+  "reward_functions": [
+    "certain_certificate"
+  ],
+  "note": "Both runs must keep max_completion_length, steps, group size, and seed matched.",
+  "registered": []
+}
